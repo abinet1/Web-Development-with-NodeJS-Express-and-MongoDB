@@ -74,3 +74,29 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+#reservationFormModal {
+    .modal-header {
+        background-color: $background-dark;
+        color: whitesmoke;
+    }
+    .modal-body{
+        background-color: $background-pale;
+    }
+}
+
+#loginModal {
+    .modal-content {
+        background-color: $background-pale;
+    }
+    .modal-header {
+        background-color: $background-dark;
+        color: whitesmoke;
+    }
+    .modal-body{
+        border: none;
+    }
+    .modal-footer{
+        border: none;
+    }
+}
