@@ -1,6 +1,6 @@
 .row-header {
   margin: 0px auto;
-  padding: 0px auto; }
+  padding: 0px 0px; }
 
 .row-content {
   margin: 0px auto;
@@ -14,35 +14,22 @@
   padding: 20px 0px; }
 
 .jumbotron {
+  margin: 0px auto;
   padding: 70px 30px;
-  margin: 0px;
-  background-color: #D1C4E9;
+  background: #9575CD;
   color: floralwhite; }
 
-.address {
+address {
   font-size: 80%;
   margin: 0px;
-  color: darkblue; }
+  color: #0f0f0f; }
 
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
-.navbar-dark {
+.navbar-inverse {
   background-color: #512DA8; }
-
-.header {
-  padding: 15px 30px;
-  justify-content: space-between; }
-
-.labelheader {
-  padding: 10px 20px; }
-
-.guest {
-  padding: 10px; }
-
-.btn {
-  padding: 5px 20px; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -52,15 +39,13 @@ body {
 
 .carousel {
   background: #512DA8; }
-
-.carousel-item {
-  height: 300px; }
-
-.carousel-item img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 300px; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
 
 #carouselButton {
   right: 0px;
@@ -68,9 +53,22 @@ body {
   bottom: 0px;
   z-index: 1; }
 
-.modal-header {
+#reservationFormModal .modal-header {
   background-color: #512DA8;
-  color: floralwhite; }
+  color: whitesmoke; }
 
-.modal-content {
+#reservationFormModal .modal-body {
   background-color: #D1C4E9; }
+
+#loginModal .modal-content {
+  background-color: #D1C4E9; }
+
+#loginModal .modal-header {
+  background-color: #512DA8;
+  color: whitesmoke; }
+
+#loginModal .modal-body {
+  border: none; }
+
+#loginModal .modal-footer {
+  border: none; }

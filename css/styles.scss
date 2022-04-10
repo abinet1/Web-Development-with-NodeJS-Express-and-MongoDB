@@ -83,9 +83,11 @@ body{
     .modal-body{
         background-color: $background-pale;
     }
+
 }
 
 #loginModal {
+    
     .modal-content {
         background-color: $background-pale;
     }
@@ -95,6 +97,7 @@ body{
     }
     .modal-body{
         border: none;
+
     }
     .modal-footer{
         border: none;
